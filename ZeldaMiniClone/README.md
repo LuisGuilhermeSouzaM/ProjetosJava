@@ -1,1 +1,3 @@
-## clone de zelda para estudos
+## Clone de zelda para estudos
+
+- Luis Guilherme

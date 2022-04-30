@@ -51,8 +51,8 @@ public class Game extends Canvas implements Runnable, KeyListener {
 
         Graphics g = bs.getDrawGraphics();
         
-        g.setColor(new Color(0,135,13));
-        g.fillRect(0, 0, WIDTH*SCALE, HEIGHT*SCALE);
+        g.setColor(new Color(14,43,62));
+        g.fillRect(0, 0, WIDTH, HEIGHT);
         
         player.render(g);
         for(int i = 0; i < enemies.size(); i++) {

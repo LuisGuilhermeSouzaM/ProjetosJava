@@ -9,6 +9,8 @@ public class Spritesheet {
 
     public static BufferedImage spritesheet;
 
+    public static BufferedImage mapImage;
+
     public static BufferedImage bullet;
 
     public static BufferedImage[] player_front;

@@ -9,7 +9,7 @@ import java.util.Random;
 
 public class Enemy extends Rectangle {
 
-    public int spd = 2;
+    public int spd = 3;
     public int right = 1, up = 0, down = 0, left = 0;
     
     public int curAnimation = 0;

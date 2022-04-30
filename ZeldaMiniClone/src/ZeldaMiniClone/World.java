@@ -10,8 +10,14 @@ public class World {
     public static List<Blocks> blocos = new ArrayList<Blocks>();
 
     public World(){
+        blocos.add(new Blocks(96, 96));
+        blocos.add(new Blocks(160, 160));
+        blocos.add(new Blocks(520, 176));
         for(int xx = 0; xx < 640/32; xx++){
             blocos.add(new Blocks(xx*32,0));
+        }
+        for(int xx = 0; xx < 400/32; xx++){
+            blocos.add(new Blocks(xx*32,240));
         }
         for(int xx = 0; xx < 640/32; xx++){
             blocos.add(new Blocks(xx*32,480-32));

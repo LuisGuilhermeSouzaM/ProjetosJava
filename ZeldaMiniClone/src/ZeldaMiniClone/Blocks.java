@@ -3,6 +3,7 @@ package ZeldaMiniClone;
 import java.awt.Rectangle;
 import java.awt.Graphics;
 
+
 public class Blocks extends Rectangle{
     
     public Blocks(int x, int y){
