@@ -1,4 +1,4 @@
-package ZeldaMiniClone;
+package zeldaminiclone;
 
 import java.awt.Graphics;
 import java.awt.Rectangle;

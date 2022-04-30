@@ -1,4 +1,4 @@
-package ZeldaMiniClone;
+package zeldaminiclone;
 
 import java.awt.Canvas;
 import java.awt.Dimension;

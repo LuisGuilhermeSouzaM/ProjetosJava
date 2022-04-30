@@ -1,4 +1,4 @@
-package ZeldaMiniClone;
+package zeldaminiclone;
 
 import java.awt.Graphics;
 import java.util.ArrayList;
@@ -16,9 +16,7 @@ public class World {
         for(int xx = 0; xx < 640/32; xx++){
             blocos.add(new Blocks(xx*32,0));
         }
-        for(int xx = 0; xx < 400/32; xx++){
-            blocos.add(new Blocks(xx*32,240));
-        }
+        
         for(int xx = 0; xx < 640/32; xx++){
             blocos.add(new Blocks(xx*32,480-32));
         }
